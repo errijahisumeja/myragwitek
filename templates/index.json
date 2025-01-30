@@ -342,8 +342,8 @@
       ],
       "settings": {
         "image": "shopify://shop_images/home-banner-1-1.webp",
-        "txt_color": "#ffffff",
-        "enable_overlay": true,
+        "txt_color": "#000000",
+        "enable_overlay": false,
         "overlay_bg_color": "#000000",
         "overlay_opacity": 0.1,
         "height": "tallheight",
