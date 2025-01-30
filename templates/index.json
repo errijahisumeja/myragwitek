@@ -340,8 +340,8 @@
         "be1a2f63-a362-420c-be09-0e620e2de86a",
         "162710985888a5f3c0-2"
       ],
-      "disabled": true,
       "settings": {
+        "image": "shopify://shop_images/home-banner-1-1.webp",
         "txt_color": "#ffffff",
         "enable_overlay": true,
         "overlay_bg_color": "#000000",
