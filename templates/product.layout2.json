@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -17,18 +26,15 @@
         },
         "3b316236-d91e-4dd0-953a-173c1f40bfcf": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "fcbf423b-3c83-4097-901c-ca70b8b80e5c": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "b253ffff-d04d-43a0-9d68-fabdd77b595a": {
           "type": "product_form",
-          "settings": {
-          }
+          "settings": {}
         },
         "e53b8574-dd34-4eca-8c40-ac20d2e38598": {
           "type": "share",
@@ -76,7 +82,6 @@
         "related-products"
       ],
       "settings": {
-        "slider_type": "default",
         "fluid_layout": false,
         "show_vendor": true,
         "enable_dynamic_checkout": true,

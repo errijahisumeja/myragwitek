@@ -7,8 +7,12 @@
     {% if section.settings.topbar_enabled %}
     <div class="topbar d-flex align-items-center" data-top-bar style="background-color: {{ section.settings.topbar_bg_color }}; min-height: {{ section.settings.topbar_height }}px;">
       <div class="container">
-          <div class="d-block text-center ls-1 py-1" style="color: {{ section.settings.topbar_text_color }};font-size: {{ section.settings.topbar_font_size }}">
+          <div class="d-block text-end justify-end ls-1 py-1" style="color: {{ section.settings.topbar_text_color }};font-size: {{ section.settings.topbar_font_size }}">
             {{ section.settings.topbar_text }}
+            {% for block in blocks %}
+              <a href="{{ block.settings.link_url }}">
+            {{ block.settings.link_text }}</a>
+            {% endfor %}
           </div>
       </div>
     </div>
@@ -219,6 +223,22 @@
       "info": "t:sections.header.settings.enable_sticky_header.info"
     },
     {
+            "type":"image_picker",
+            "id":"image",
+            "label": "Image",
+            "info": "Use 480x480 sized image."
+        },
+        {
+            "type":"text",
+            "id":"link_text",
+            "label":"Link text"
+        },
+        {
+            "type":"url",
+            "id":"link_url",
+            "label":"URL"
+        },
+    {
       "type": "color",
       "id": "header_bg_color",
       "label": "t:sections.header.settings.header_bg_color.label",
@@ -279,23 +299,7 @@
           "type": "text",
           "id": "title",
           "label": "Menu Title",
-          "info": "Use Exact string as header"
-        },
-        {
-            "type":"image_picker",
-            "id":"image",
-            "label": "Image",
-            "info": "Use 480x480 sized image."
-        },
-        {
-            "type":"text",
-            "id":"link_text",
-            "label":"Link text"
-        },
-        {
-            "type":"url",
-            "id":"link_url",
-            "label":"URL"
+          "info": "Use Exact string as heder"
         }
       ]
     }
