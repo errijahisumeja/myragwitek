@@ -340,6 +340,7 @@
         "be1a2f63-a362-420c-be09-0e620e2de86a",
         "162710985888a5f3c0-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/home-banner-1-1.webp",
         "txt_color": "#000000",
@@ -688,6 +689,16 @@
         "alignment": "text-center",
         "video_alignment": "justify-content-center"
       }
+    },
+    "hero_LqJVPn": {
+      "type": "hero",
+      "settings": {
+        "background": "shopify://shop_images/home-banner-1-1.webp",
+        "title": "RAGWITEK",
+        "subtitle": "Subheading!",
+        "button_text": "Learn more!",
+        "button_url": "/"
+      }
     }
   },
   "order": [
@@ -703,6 +714,7 @@
     "162943776301163939",
     "1627036040e9086143",
     "163403325190e9c2fd",
-    "1648548602b2ca3bf9"
+    "1648548602b2ca3bf9",
+    "hero_LqJVPn"
   ]
 }
