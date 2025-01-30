@@ -1,0 +1,45 @@
+{% schema %}
+{
+  "name": "hero",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Title!"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subheading",
+      "default": "Subheading!"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Learn more!"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL",
+      "default": "/"
+    }
+  ],
+  "presets": [
+    {
+      "name": "hero"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="container">
+  {{ section.settings.background | image_url: width: 1920 | image_tag: class: '' }}
+</div>
