@@ -48,6 +48,7 @@
         "blocks": {
           "121df697-f913-49f3-b503-4268235000d0": {
             "type": "megamenu",
+            "disabled": true,
             "settings": {
               "title": "Men",
               "link_text": "Shop Now",
@@ -56,6 +57,7 @@
           },
           "791f0d9a-5f5f-4938-af7d-0811b105b3ff": {
             "type": "megamenu",
+            "disabled": true,
             "settings": {
               "title": "Women",
               "link_text": "Shop Now",
