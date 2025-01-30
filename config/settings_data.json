@@ -48,16 +48,22 @@
         "blocks": {
           "121df697-f913-49f3-b503-4268235000d0": {
             "type": "megamenu",
-            "disabled": true,
             "settings": {
               "title": "Men",
               "link_text": "Shop Now",
               "link_url": "shopify://collections/men"
             }
           },
+          "megamenu_6aBcry": {
+            "type": "megamenu",
+            "settings": {
+              "title": "",
+              "link_text": "",
+              "link_url": ""
+            }
+          },
           "791f0d9a-5f5f-4938-af7d-0811b105b3ff": {
             "type": "megamenu",
-            "disabled": true,
             "settings": {
               "title": "Women",
               "link_text": "Shop Now",
@@ -68,13 +74,15 @@
             "type": "megamenu",
             "settings": {
               "title": "Important Safety Information",
-              "link_text": "",
+              "image": "shopify://shop_images/medical-case_477ce9a6-c536-4e1c-8986-aee891fe8277.svg",
+              "link_text": "Important Safety Information",
               "link_url": ""
             }
           }
         },
         "block_order": [
           "121df697-f913-49f3-b503-4268235000d0",
+          "megamenu_6aBcry",
           "791f0d9a-5f5f-4938-af7d-0811b105b3ff",
           "megamenu_TXkCjY"
         ],
