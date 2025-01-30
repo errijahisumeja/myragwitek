@@ -299,13 +299,13 @@
         "162710985888a5f3c0-0": {
           "type": "heading",
           "settings": {
-            "heading": "Nature inspired colors. Science powered formulas."
+            "heading": "RAGWITEK"
           }
         },
         "162710985888a5f3c0-1": {
           "type": "text",
           "settings": {
-            "text": "Our products are formulated with state-of-the-art, naturally-derived ingredients that are healthy for your skin and conscientious of our planet."
+            "text": "is a ragweed allergy treatment in a tablet"
           }
         },
         "be1a2f63-a362-420c-be09-0e620e2de86a": {
@@ -321,10 +321,10 @@
         "162710985888a5f3c0-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "shop our products",
+            "button_label_1": "Learn More",
             "button_link_1": "#",
             "btn_type_1": "",
-            "btn_variant_1": "white",
+            "btn_variant_1": "primary",
             "btn_size_1": "",
             "button_label_2": "",
             "button_link_2": "#",
