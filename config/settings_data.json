@@ -61,11 +61,20 @@
               "link_text": "Shop Now",
               "link_url": "shopify://collections/women"
             }
+          },
+          "megamenu_TXkCjY": {
+            "type": "megamenu",
+            "settings": {
+              "title": "Important Safety Information",
+              "link_text": "",
+              "link_url": ""
+            }
           }
         },
         "block_order": [
           "121df697-f913-49f3-b503-4268235000d0",
-          "791f0d9a-5f5f-4938-af7d-0811b105b3ff"
+          "791f0d9a-5f5f-4938-af7d-0811b105b3ff",
+          "megamenu_TXkCjY"
         ],
         "settings": {
           "topbar_enabled": true,

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "16270344513581fee7": {
@@ -6,8 +15,6 @@
         "e5811002-6f6b-488d-a9a4-803d62a8f03e": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/mlouye-sera-tote-macaron-desk1.jpg",
-            "image_mobile": "shopify://shop_images/multi-colored-twists-of-yarn.jpg",
             "slide_bg_color": "#ffffff",
             "enable_overlay": false,
             "overlay_bg_color": "#000000",
@@ -28,8 +35,6 @@
         "5f138ef3-db88-4ec2-9c76-525b0af787bf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/mlouye-thelma-louise-homepage-1.jpg",
-            "image_mobile": "shopify://shop_images/mlouye-thelma-louise-homepage-2.jpg",
             "slide_bg_color": "#ffffff",
             "enable_overlay": true,
             "overlay_bg_color": "#ffffff",
@@ -65,8 +70,6 @@
             "poster_type": "",
             "bg_video": "https://cdn.shopify.com/videos/c/o/v/aa72308259d0435488922d55c49c5398.mp4",
             "mobile_bg_video": "",
-            "image": "shopify://shop_images/video_cover.jpg",
-            "image_mobile": "shopify://shop_images/video_cover.jpg",
             "video_type": "local",
             "placement": "grid",
             "video_id": "https://cdn.shopify.com/s/files/1/0581/7663/5061/files/Seedsheet_-_Four_Steps_to_Fresh_Food.mp4?v=1629442501",
@@ -83,6 +86,7 @@
         "5f138ef3-db88-4ec2-9c76-525b0af787bf",
         "21b79b13-165a-4ae3-9277-e3091171e49d"
       ],
+      "disabled": true,
       "settings": {
         "enabled": true,
         "nav_arrows": true,
@@ -208,6 +212,7 @@
         "46228c62-e222-49f5-9015-d59d03e6c842",
         "fe47c0ff-26f5-4357-a24d-51f08f2e6cd2"
       ],
+      "disabled": true,
       "settings": {
         "section_bg_color": "#fafaf7",
         "section_txt_color": "#222222"
@@ -273,6 +278,7 @@
         "81136cdc-7195-4ea6-abe7-31f4df772124",
         "cf990352-fa89-462e-9b30-ba28b8d1bead"
       ],
+      "disabled": true,
       "settings": {
         "fluid_layout": false,
         "grid_size": "2",
@@ -334,9 +340,8 @@
         "be1a2f63-a362-420c-be09-0e620e2de86a",
         "162710985888a5f3c0-2"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/mlouye-puff-desktop-1.jpg",
-        "image_mobile": "shopify://shop_images/mlouye-puff-mobile-1.jpg",
         "txt_color": "#ffffff",
         "enable_overlay": true,
         "overlay_bg_color": "#000000",
@@ -381,6 +386,7 @@
         "16273012625e8a6f4e-1",
         "75b8530c-55ba-421c-8e38-0f2ed94ded2e"
       ],
+      "disabled": true,
       "settings": {
         "title": "Collections",
         "txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar ac tortor imperdiet commodo.",
@@ -395,6 +401,7 @@
     },
     "162703446299aaa8de": {
       "type": "global-featured-collection",
+      "disabled": true,
       "settings": {
         "fluid_layout": false,
         "collection_grid_type": "grid",
@@ -467,6 +474,7 @@
         "2dc4650f-8c4f-439c-adf1-6e23854d3945",
         "65899402-a15a-469b-b33b-68f8b34d239b"
       ],
+      "disabled": true,
       "settings": {
         "fluid_layout": false,
         "heading": "Awesome Heading",
@@ -479,6 +487,7 @@
     },
     "16270454495feb2a63": {
       "type": "global-image-with-text",
+      "disabled": true,
       "settings": {
         "fluid_layout": false,
         "heading_txt": "Natural beauty brand you can fully trust & love.",
@@ -490,7 +499,6 @@
         "btn_type": "",
         "btn_variant": "primary",
         "btn_size": "",
-        "image": "shopify://shop_images/mlouye-new-small-naomi-mob.jpg",
         "section_bg_color": "#fafaf7",
         "section_text_color": "#000000",
         "alignment": "text-left",
@@ -543,6 +551,7 @@
         "3039a1d6-b656-43e3-b390-988ee1cedac5",
         "735daa80-06f6-48fb-97ef-0b3ca8569805"
       ],
+      "disabled": true,
       "settings": {
         "fluid_layout": false,
         "heading_txt": "in the press",
@@ -558,6 +567,7 @@
     },
     "162943776301163939": {
       "type": "global-video-with-text",
+      "disabled": true,
       "settings": {
         "fluid_layout": false,
         "muted": true,
@@ -573,7 +583,6 @@
         "poster_type": "",
         "bg_video": "",
         "mobile_bg_video": "",
-        "poster_image": "shopify://shop_images/mlouye-thelma-louise-homepage-1.jpg",
         "fluid_video_layout": true,
         "video_type": "youtube",
         "placement": "grid",
@@ -587,6 +596,7 @@
     },
     "1627036040e9086143": {
       "type": "global-blog-posts",
+      "disabled": true,
       "settings": {
         "fluid_layout": false,
         "blog_handles": "News",
@@ -637,11 +647,8 @@
         "163403325190e9c2fd-1",
         "163403325190e9c2fd-2"
       ],
+      "disabled": true,
       "settings": {
-        "image_small": "shopify://shop_images/mlouye-sera-tote-macaron-desk1.jpg",
-        "image_mobile": "shopify://shop_images/mlouye-sera-tote-macaron-mob2.jpg",
-        "image_small_2": "shopify://shop_images/mlouye-new-small-naomi-desktop.jpg",
-        "image_mobile_2": "shopify://shop_images/mlouye-new-small-naomi-mob.jpg",
         "image_overlay_opacity": 0,
         "height": "tallheight",
         "show_text_box": true,
@@ -655,6 +662,7 @@
     },
     "1648548602b2ca3bf9": {
       "type": "global-video-with-text",
+      "disabled": true,
       "settings": {
         "fluid_layout": false,
         "muted": true,
@@ -670,7 +678,6 @@
         "poster_type": "",
         "bg_video": "https://cdn.shopify.com/videos/c/o/v/aa72308259d0435488922d55c49c5398.mp4",
         "mobile_bg_video": "",
-        "poster_image": "shopify://shop_images/hair-stylists-tool-case.jpg",
         "fluid_video_layout": true,
         "video_type": "local",
         "placement": "grid",
