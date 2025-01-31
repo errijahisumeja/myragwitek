@@ -21,6 +21,7 @@ html.no-js .no-js-hidden {
 }
 
 
+
 a:empty,
 ul:empty,
 dl:empty,
@@ -11776,6 +11777,24 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     display: block !important;
 }
 
+.custom-container{
+    padding: 0 120px;
+}
+
+.btn-primary {
+    background-color: #ffb744 !important; 
+    border-color: none;
+    color: #fff;
+    padding: 32px 63px;
+    font-size: 25px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #fec15f !important; 
+    border-color: none !important;
+    text-decoration: underline !important;
+  }
+  
 
 .snotifyToast__progressBar {
     position: relative;

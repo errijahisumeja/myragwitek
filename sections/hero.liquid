@@ -40,6 +40,19 @@
 }
 {% endschema %}
 
-<div class="container">
-  {{ section.settings.background | image_url: width: 1920 | image_tag: class: '' }}
+<div class="container-fluid position-relative p-0">
+  <div class="row">
+    <div class="col-12 position-relative">
+      {{ section.settings.background | image_url: width: 1920 | image_tag: class: 'img-fluid w-100' }}
+      <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+    </div>
+    <div
+      class="custom-container col-10 text-left text-black justify-start position-absolute"
+      style="z-index: 1; width: 50%; "
+    >
+      <h1 class="title" style="font-size: 112px; margin-bottom: 0px">{{ section.settings.title }}</h1>
+      <p class="subtitle" style="font-size: 45px">{{ section.settings.subtitle }}</p>
+      <a href="{{ section.settings.button_url }}" class="btn btn-primary">{{ section.settings.button_text }}</a>
+    </div>
+  </div>
 </div>
